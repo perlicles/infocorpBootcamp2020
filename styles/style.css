@@ -382,10 +382,13 @@ form button {
 
     
     .agenda-wrapper {
-        background: url("./img/agendaFoto.jpeg");
+        background: url("/img/agendaFoto.jpeg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         display: block;
         width: 100%;
         height: auto;
@@ -445,10 +448,13 @@ form button {
     }
 
     .location-wrapper {
-        background: url("./img/Google-Maps-740x388.jpg");
+        background: url("/img/Google-Maps-740x388.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         display: block;
         width: 100%;
         height: auto;
